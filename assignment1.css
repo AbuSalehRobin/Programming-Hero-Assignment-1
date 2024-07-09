@@ -81,3 +81,74 @@ body {
 .btn-hero:hover {
     background-color: gray;
 }
+
+.feature-section {
+    background-color: #FAFAFB;
+    width: 1140px;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+    margin: 60px auto;
+    justify-content: center;
+}
+
+.feat-top {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    flex-direction: column;
+    padding: 0 97px;
+}
+
+.feat-title {
+    font-weight: 200;
+    font-style: italic;
+    margin-top: 45px;
+}
+
+.feat-details {
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+}
+
+.feat-card-1 {
+    display: flex;
+    border-radius: 12px;
+    flex-direction: row;
+    align-items: center;
+    margin: 16px auto;
+    background: white;
+    padding: 8px;
+    width: 940px;
+}
+
+.feat-card-2 {
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+    align-items: center;
+    margin: 16px auto;
+    background: white;
+    padding: 8px;
+    width: 940px;
+}
+
+.feat-card-3 {
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+    align-items: center;
+    margin: 16px auto;
+    background: white;
+    padding: 8px;
+    width: 940px;
+}
+
+.feat-card-texts {
+    margin: 12px;
+}
+
+.feat-card-img {
+    margin: 6px;
+}
