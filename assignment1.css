@@ -152,3 +152,33 @@ body {
 .feat-card-img {
     margin: 6px;
 }
+
+.inspiration-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 24px;
+}
+
+.inspiration-header {
+    text-align: center;
+}
+
+.inspiration-title {
+    font-size: xx-large;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.inspiration-video {
+    height: 640px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.inspiration-embedded {
+    width: 75%;
+    height: 100%;
+}
