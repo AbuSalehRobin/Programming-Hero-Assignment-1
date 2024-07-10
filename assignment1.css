@@ -61,7 +61,7 @@ body {
     padding: 0 20px;
 }
 
-.hero-description {
+.hero-subtitle {
     font-size: 16px;
     margin-bottom: 30px;
     color: black;
@@ -106,7 +106,7 @@ body {
     margin-top: 45px;
 }
 
-.feat-details {
+.feat-subtitle {
     font-style: italic;
     font-weight: 100;
     text-align: center;
@@ -181,4 +181,50 @@ body {
 .inspiration-embedded {
     width: 75%;
     height: 100%;
+}
+
+.target-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 24px;
+}
+
+.target-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+}
+
+.target-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+}
+.target-card-img {
+    width: 50px;
+}
+.target-card-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+}
+.target-card-subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin: 10px 0;
+}
+.target-card a {
+    font-size: 1rem;
+    color: #666;
+    text-decoration: none;
+    border-bottom: 1px solid #666;
+}
+.target-card a:hover {
+    color: #333;
+    border-bottom-color: #333;
 }
